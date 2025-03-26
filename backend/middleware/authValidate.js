@@ -10,6 +10,7 @@ export const validateSignup = [
 export const validateLogin = [
     check('email').isEmail().withMessage('Invalid email address'),
     check('password')
+    .notEmpty().withMessage('Passwors is required')
     .isLength({min:6})
     .withMessage('Password must be at least 6 characters long')
     
