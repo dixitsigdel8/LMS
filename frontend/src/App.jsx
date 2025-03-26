@@ -5,11 +5,10 @@ function App() {
 
   return (
     <main>
-          <Login />
-
+      <Login />
     </main>
 
   )
-} 
+}
 
 export default App
